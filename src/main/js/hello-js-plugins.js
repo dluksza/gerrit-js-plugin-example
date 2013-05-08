@@ -9,4 +9,4 @@ var callback = function(changeNo) {
   return widget;
 }
 
-gerrit.onChangeScreen().addChangeInfoRow(position, title, callback);
+gerrit.onChangeScreen.insertRowToChangeInfoTable(position, title, callback);
